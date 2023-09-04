@@ -16,6 +16,11 @@
             border:1px solid black;
             border-collapse: collapse;
         }
+
+        #c2
+        {
+            width:400px;
+        }
         .fill
         {
             margin:0;
@@ -26,6 +31,7 @@
         #center
         {
             text-align: center;
+            font-weight: bolder;
         }
         
     </style>
@@ -34,60 +40,60 @@
     <h1 class="center">Registration Form</h1>
     <table align="center">
         <tr>
-            <td>First Name</td>
-            <td><input type="text" class="fill"/></td>
+            <td id ="center">First Name</td>
+            <td id="c2"><input type="text" class="fill"/></td>
         </tr>
         <tr>
-            <td>Last Name</td>
-            <td><input type="text" class="fill"></td>
+            <td id ="center">Last Name</td>
+            <td id="c2"><input type="text" class="fill"></td>
         </tr>
         <tr>
-            <td>Email</td>
-            <td><input type="text" class="fill"></td>
+            <td id ="center">Email</td>
+            <td id="c2"><input type="text" class="fill"></td>
         </tr>
         <tr>
-            <td>Passowrd</td>
-            <td><input type="password" class="fill"></td>
+            <td id ="center">Passoword</td>
+            <td id="c2"><input type="password" class="fill"></td>
         </tr>
         <tr>
-            <td>Re-enter Passowrd</td>
-            <td><input type="password" class="fill"></td>
+            <td id ="center">Re-enter Passoword</td>
+            <td id="c2"><input type="password" class="fill"></td>
         </tr>
         
         <tr>
-            <td rowspan="2">Gender:</td>
-            <td><input type="radio" name="sex" >Male</td>
+            <td rowspan="2"  id ="center">Gender:</td>
+            <td id="c2"><input type="radio" name="sex" >Male</td>
           </tr>
           <tr>
-            <td><input type="radio" name="sex">Female</td>
+            <td id="c2"><input type="radio" name="sex">Female</td>
           </tr>
         <tr>
-            <td>Age:</td>
-            <td><input type="text" class="fill"></td>
+            <td id ="center">Age:</td>
+            <td id="c2"><input type="text" class="fill"></td>
         </tr>
         <tr>
-            <td>Phone Number:</td>
-            <td><input type="text" class="fill"></td>
+            <td id ="center">Phone Number:</td>
+            <td id="c2"><input type="text" class="fill"></td>
+        </tr>
+        <tr style="height: 100px;">
+            <td id ="center">Address</td>
+            <td id="c2"><textarea class="fill" rows="6"></textarea></td>
         </tr>
         <tr>
-            <td>Address</td>
-            <td><textarea class="fill" class="fill"></textarea></td>
+            <td id ="center" id ="center">State</td>
+            <td id="c2"><input type="text" class="fill"></td>
         </tr>
         <tr>
-            <td>State</td>
-            <td><input type="text" class="fill"></td>
-        </tr>
-        <tr>
-            <td>Country</td>
-            <td><select name="" id="">
+            <td id ="center">Country</td>
+            <td id="c2"><select name="" id="">
                 <option>Choose your country</option>
                 <option>India</option>
                 <option>Rest of the world</option>
             </select></td>
         </tr>
         <tr>
-            <td>Languages Known</td>
-            <td>
+            <td id ="center">Languages Known</td>
+            <td id="c2">
                 <input type="checkbox" name="l">English
                 <input type="checkbox" name="l">Kannada
                 <input type="checkbox" name="l">Hindi
@@ -95,10 +101,10 @@
             </td>
         </tr>
         <tr>
-            <td colspan="2"><input type="checkbox">Hereby I declare all the given details are true</td>
+            <td  id="c2" colspan="2"><input type="checkbox">Hereby I declare all the given details are true</td>
         </tr>
         <tr>
-            <td colspan="2" align="right"> Log in to <a href="https://ethnus.com/">Ethnus</a>website</td>
+            <td id="c2" colspan="2" align="right"> Log in to <a href="https://ethnus.com/">Ethnus</a>website</td>
         </tr>
 
     </table>
