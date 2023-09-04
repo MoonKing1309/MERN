@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        nav
+        {
+            border: 0px;
+            background-color: white;
+            height: 500px;
+            width: 500px;
+            margin-top: 100px;
+            margin-left:500px;
+        }
+        footer
+        {
+            background-color: hsl(0, 1%, 87%);
+            border-top: 1px solid #a3a2a2;
+            width: 400px;
+            height: 50px;
+            margin-top: -70px;
+            margin-left: 500px;
+        }
+        a:link
+        {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="./User.png" alt="User.png not found" style="width: 450px;height:225px"/>
+        <form>
+        <label for="uname" style="margin-top: 10px;"><b>Username</b></label>
+        <p style="margin-bottom: 10px;"><input name="uname" placeholder="Enter Username" style ='width: 80%;height: 25px;' type="text"></input></p>
+        <label for="pwd" style="margin-top: 10px;"><b >Password</b></label>
+        <p><input name="pwd" placeholder="Enter Password" style ='width: 80%;height: 25px;' type="password"></input></p>
+        <button type="submit" style="margin-top:10px; border:0px;background-color:  green;color: white;width: 400px;height: 30px;" >Login</button>
+        <p style="margin-top: 10px;font-size: 12px;"><input style="height: 10px;margin-right: 5px;" type="checkbox">Remember me</p>
+    </nav>
+    <footer>
+        <button type="reset" style="margin-top: 15px;height: 30px;width: 60px;background-color: red;color: white; border: 0px; border-radius: 20%;">Cancel</button>
+        <a href="#" style="margin-left: 62%;font-size: 12px;">Forgot <u>password?</u></a>
+    </form>
+    </footer>
+
+</body>
+</html>

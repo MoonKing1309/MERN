@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+    <style>
+        *
+        {
+          padding: 0px;
+          margin: 0px;  
+        }
+        .vertical
+        {
+            margin-top:100px;
+            margin-left: 100px;
+            height:300px;
+            width:150px;
+            outline:2px solid black;
+            outline-offset: 5px;
+        }
+
+        .horizontal
+        {
+            margin-left : 500px;
+            display: inline-block;
+            outline:2px solid black;
+            outline-offset: 5px;
+           
+        }
+
+        .vul{
+            text-indent: 15%;
+            list-style-type: none;
+            line-height: 60px;
+            background-color: rgb(85, 127, 148);
+        }
+        .hul
+        {
+            list-style-type: none;
+            background-color: hsl(204, 4%, 77%);
+            display: inline-block;
+        }
+        
+        #d
+        {
+            display:inline-block;
+            line-height: 60px;
+            width :100px;
+            text-indent: 10px;
+            border-right: 1px solid blue;
+            
+        }
+        li:hover
+        {
+            color: white;
+            background-color: orange;
+            transition: 0.4s;
+            color:blue;
+        }
+        #d:hover
+        {
+            color: white;
+            background-color: #787b7c;
+            transition: 0.4s;
+            color:blue;
+        }
+        a:link
+        {
+            text-decoration: none;
+            color: blue;
+        }
+        a:active
+        {
+            color:purple;
+        }
+        a:hover
+        {
+            color:white;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="vertical" >
+        <ul class="vul">
+            <li><a href="">Home</a></li>
+            <li><a href="">Java</a></li>
+            <li><a href="">CSS</a></li>
+            <li><a href="">HTML</a></li>
+            <li><a href="">Bootstrap</a></li>
+        </ul>
+    </nav>
+
+    <nav class="horizontal">
+        <ul class="hul">
+            <li id="d"><a href="">Home</a></li>
+            <li id="d"><a href="">Java</a></li>
+            <li id="d"><a href="">HTML</a></li>
+            <li id="d"><a href="">CSS</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
